@@ -1,0 +1,174 @@
+.about {
+  background: #fff;
+  position: relative;
+  color: #6db8b1;
+}
+.page-top {
+  width: 100%;
+  height: 114px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 114px;
+  text-align: center;
+  color: #256475;
+}
+.about-title {
+  font-size: 28px;
+  height: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #6db8b1;
+}
+.about-me {
+  color: #6db8b1;
+}
+
+.about-me-w {
+  width: 100%;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6db8b1;
+}
+.about-me-w li {
+  color: #6db8b1;
+}
+.about-pic {
+  width: 100%;
+  height: 276px;
+  position: relative;
+  margin-top: 50px;
+}
+.about-pic-me {
+  width: 200px;height:200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  border: 5px solid #256475;
+  padding: 0px;
+  background-origin: padding-box;
+  background: url(../images/me.png) no-repeat center center;
+  background-clip: content-box;
+}
+.about-skills {
+  text-align: center;
+  color: #6db8b1;
+}
+.about-skills p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #6db8b1;
+}
+.about-skill {
+  margin: 10px 20px;
+  width: 90%;
+  height: 30px;
+  background: #ccc;
+  position: relative;
+}
+.about-skill span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  background: #256475;
+  height: 30px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+}
+.about-skill:nth-of-type(1) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill:nth-of-type(2) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill:nth-of-type(3) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill:nth-of-type(4) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill:nth-of-type(5) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill:nth-of-type(6) span {
+  width: 0%;
+  transition: width 2s linear;
+}
+.about-skill .skill-name {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0 5px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+  font-size: 15px;
+}
+.about-skill .skill-percent {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0 5px;
+  height: 30px;
+  font-weight: bold;
+  color: #000;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 15px;
+}
+@media screen and (min-width: 660px) {
+  .about-me-w {
+    width: 100%;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-pic-me {
+  width: 150px;height:150px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  border: 5px solid #256475;
+  padding: 0px;
+  background-origin: padding-box;
+  background: url(../images/me.png) no-repeat center center;
+  background-clip: content-box;
+}
+}
+@media screen and (min-width: 1000px) {
+  
+  .about-pic-me {
+  width: 250px;height:250px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  border: 5px solid #256475;
+  padding: 0px;
+  background-origin: padding-box;
+  background: url(../images/me.png) no-repeat center center;
+  background-clip: content-box;
+}
+}

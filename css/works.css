@@ -1,0 +1,30 @@
+.works {
+  width: 100%;
+}
+ .imgs[class*=col] {
+  height: 400px;
+} 
+/*.works .top{
+	position: relative;width: 100%;height: auto;
+}*/
+/*.works .left{
+	position: relative;width: 100%;height: auto;
+}*/
+.works .imgs .top{position: relative;}
+.works .imgs .left{position: relative;margin: 5px auto;}
+/*.works .imgs  div:last-of-type{position: relative;}*/
+.works .top .tulun {
+  width: 260px;overflow: hidden;
+  height:180px;position: relative;margin: 5px auto;}
+.works .left .tulun {overflow: hidden;
+  width: 260px;height:180px;position: relative;margin: 0 auto;
+}
+.tulun .tulunbox{width: 1040px;height:180px;margin: 0 auto;position: relative;top: 0;left: 0;}
+.tulun .tulunbox img{width: 260px;height:180px;}
+
+.works .tul{ width: 50px;height: 70px; position: absolute;
+	top:55px; right:20px;}
+.works .tur{ width: 50px;height: 70px; position: absolute;
+	top:55px; left:20px;}
+.works .tul,.works .tur{background: #6db8b1; color: #256475;
+    font-size: 65px;line-height: 70px;text-align: center;font-weight: bold;cursor:pointer;}

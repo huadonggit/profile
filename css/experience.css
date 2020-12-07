@@ -1,0 +1,86 @@
+.experience {
+  background: rgba(100, 150, 150, 0.2);
+  position: relative;
+  color: #6db8b1;
+  height: 500px;
+}
+.expl {
+  width: 100%;
+  height: 280px;
+  background: rgba(100, 150, 150, 0.3);
+  position: absolute;
+  top: 220px;
+  left: 0px;
+}
+.expr {
+  width: 100%;
+  height: 140px;
+  background: rgba(100, 150, 150, 0.4);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.date {
+  color: #256475;
+  line-height: 20px;
+  font-size: 18px;
+}
+.con p {
+  color: #777;
+  line-height: 18px;
+  font-size: 14px;
+  text-indent: 2em;
+}
+.exp-top {
+  width: 80%;
+  height: 106px;
+  position: absolute;
+  top: 18%;
+  left: -100%;
+  transition: left 1s linear;
+}
+.exp-center {
+  width: 80%;
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  right: -200%;
+  transition: right 1s linear;
+}
+.exp-bottom {
+  width: 80%;
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  left: -100%;
+  transition: left 1s linear;
+}
+@media screen and (min-width: 660px) {
+  .expl {
+    width: 90%;
+  }
+  .expr {
+    width: 90%;
+  }
+  .experience .exp-top {
+    width: 40%;
+    height: 106px;
+    position: absolute;
+    top: 18%;
+    left: -100%;
+  }
+  .experience .exp-center {
+    width: 40%;
+    height: 120px;
+    position: absolute;
+    top: 10%;
+    right: -200%;
+  }
+  .experience .exp-bottom {
+    width: 40%;
+    height: 120px;
+    position: absolute;
+    top: 10%;
+    left: -100%;
+  }
+}

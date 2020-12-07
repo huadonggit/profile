@@ -1,0 +1,100 @@
+.nav1 {
+  height: 80px;
+  width: 100%;
+  background: #256475;
+  text-align: center;
+  display: none;
+}
+.nav2 {
+  height: 80px;
+  width: 100%;
+  background: #256475;
+  text-align: center;
+  display: none;
+}
+.nav2 .navright {
+  padding: 0 5px;
+  line-height: 80px;
+}
+.nav2 .navlist {
+  display: none;
+  padding: 0 5px;
+  position: relative;
+  float: left;
+  z-index: 999;
+  width: 220%;
+  line-height: 55px;
+  margin-left: -110%;
+  background: #256475;
+}
+.nav2 .navlist a {
+  display: block;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 1px solid #fff;
+}
+.navw {
+  height: 100%;
+  width: 100%;
+  line-height: 80px;
+  padding: 0 5px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+}
+.nav1 a,
+.nav2 a {
+  line-height: 80px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+}
+.nav1 span,
+.nav2 span {
+  line-height: 80px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  display: none;
+  font-weight: normal;
+}
+.nav2 .navleft {
+  line-height: 80px;
+  font-size: 24px;
+  text-align: left;
+  color: #fff;
+  font-weight: bolder;
+}
+.navleft {
+  line-height: 80px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bolder;
+}
+.nav2 .navright a {
+  padding: 0 0;
+  line-height: 80px;
+  display: block;
+  text-align: right;
+}
+.navsearch input {
+  width: 156px;
+  height: 27px;
+  margin-top: 24px;
+  background: #8eafb8;
+}
+@media screen and (min-width: 1090px) {
+  .nav1,
+  .nav2 {
+    width: 100%;
+    height: 20%;
+  }
+  .nav1 span,
+  .nav2 span {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
